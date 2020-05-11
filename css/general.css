@@ -145,8 +145,13 @@
   width: 100%;
   line-height: 40px;
   margin: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
-/* line 139, general.less */
+/* line 140, general.less */
 .top_header .top_navigation .ale_headermenu li .sub-menu li.menu-item-has-children::after {
   content: "\f054";
   font: normal normal normal 6px/1 FontAwesome;
@@ -156,11 +161,16 @@
   left: 78%;
   margin-top: -3px;
 }
-/* line 151, general.less */
+/* line 152, general.less */
 .top_header .top_navigation .ale_headermenu li .sub-menu li:hover .sub-menu {
   display: block;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
-/* line 156, general.less */
+/* line 158, general.less */
 .top_header .top_navigation .ale_headermenu li .sub-menu li .sub-menu {
   position: absolute;
   border-left: 2px solid #f7f7f7;
@@ -169,15 +179,15 @@
   top: 0;
   display: none;
 }
-/* line 164, general.less */
+/* line 166, general.less */
 .top_header .top_navigation .ale_headermenu li .sub-menu li .sub-menu::before {
   display: none;
 }
-/* line 170, general.less */
+/* line 172, general.less */
 .top_header .top_navigation .ale_headermenu li .sub-menu li:last-child a {
   border-bottom: 0;
 }
-/* line 175, general.less */
+/* line 177, general.less */
 .top_header .top_navigation .ale_headermenu li .sub-menu li a {
   color: inherit;
   height: auto;
@@ -193,7 +203,7 @@
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-/* line 186, general.less */
+/* line 188, general.less */
 .top_header .top_navigation .ale_headermenu li .sub-menu li a:hover {
   color: #804258;
   text-decoration: underline;
@@ -203,16 +213,16 @@
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-/* line 195, general.less */
+/* line 197, general.less */
 .top_header .top_navigation .ale_headermenu li.current_page_item,
 .top_header .top_navigation .ale_headermenu li.current-menu-item {
   color: #eedf9c;
 }
-/* line 201, general.less */
+/* line 203, general.less */
 .top_header .top_navigation .ale_headermenu li:first-child a {
   padding-left: 0;
 }
-/* line 207, general.less */
+/* line 209, general.less */
 .top_header .top_navigation .ale_headermenu li::after {
   content: "\f111";
   font: normal normal normal 4px/1 FontAwesome;
@@ -224,11 +234,11 @@
   top: 50%;
   margin-top: -2px;
 }
-/* line 219, general.less */
+/* line 221, general.less */
 .top_header .top_navigation .ale_headermenu li:last-child::after {
   content: "";
 }
-/* line 224, general.less */
+/* line 226, general.less */
 .top_header .top_navigation .ale_headermenu li a {
   color: inherit;
   text-decoration: none;
@@ -236,7 +246,7 @@
   display: block;
   height: 100%;
 }
-/* line 231, general.less */
+/* line 233, general.less */
 .top_header .top_navigation .ale_headermenu li:hover {
   color: #eedf9c;
   -webkit-transition: all 300ms ease-in-out;
@@ -245,7 +255,7 @@
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-/* line 242, general.less */
+/* line 244, general.less */
 .top_header::after {
   content: "";
   display: block;
@@ -255,19 +265,19 @@
   position: absolute;
   top: 100%;
 }
-/* line 254, general.less */
+/* line 256, general.less */
 .header_third {
   float: left;
 }
-/* line 257, general.less */
+/* line 259, general.less */
 .logo_section {
   text-align: left;
 }
-/* line 260, general.less */
+/* line 262, general.less */
 .logo_link {
   height: 100px;
 }
-/* line 263, general.less */
+/* line 265, general.less */
 .social_section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -276,15 +286,20 @@
   color: #d4dad9;
   line-height: 105px;
 }
-/* line 270, general.less */
+/* line 274, general.less */
 .social_section i {
   margin-left: 25px;
 }
-/* line 273, general.less */
+/* line 277, general.less */
 .social_section a {
   color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
-/* line 275, general.less */
+/* line 281, general.less */
 .social_section a:hover {
   color: #b9c2c1;
   -webkit-transition: all 300ms ease-in-out;
@@ -293,36 +308,36 @@
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
-/* line 281, general.less */
+/* line 287, general.less */
 .search_section {
   line-height: 105px;
 }
-/* line 284, general.less */
+/* line 290, general.less */
 .menu_icon {
   display: inline-block;
   float: left;
   line-height: 110px;
 }
-/* line 288, general.less */
+/* line 294, general.less */
 .menu_icon i {
   font-size: 20px;
   color: dark;
   margin-right: 30px;
   cursor: pointer;
 }
-/* line 295, general.less */
+/* line 301, general.less */
 .search_box {
   display: inline-block;
   float: left;
 }
-/* line 298, general.less */
+/* line 304, general.less */
 .search_box fieldset {
   border-width: 0px;
   margin: 0px;
   padding: 0px;
   font-size: 16 px;
 }
-/* line 303, general.less */
+/* line 309, general.less */
 .search_box fieldset:before {
   content: "\f002";
   font: normal normal normal 14px/1 FontAwesome;
@@ -330,39 +345,39 @@
   color: #d4dad9;
   margin-right: 6px;
 }
-/* line 312, general.less */
+/* line 318, general.less */
 #searchsubmit {
   display: none;
 }
-/* line 315, general.less */
+/* line 321, general.less */
 .searchinput {
   border: none;
   color: #a9a9a9;
   font-size: 12px;
   font-style: italic;
 }
-/* line 320, general.less */
+/* line 326, general.less */
 .searchinput::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #d4dad9;
   font-size: 12px;
   font-style: italic;
 }
-/* line 325, general.less */
+/* line 331, general.less */
 .searchinput::-moz-placeholder {
   /* Firefox 19+ */
   color: #d4dad9;
   font-size: 12px;
   font-style: italic;
 }
-/* line 330, general.less */
+/* line 336, general.less */
 .searchinput:-ms-input-placeholder {
   /* IE 10+ */
   color: #d4dad9;
   font-size: 12px;
   font-style: italic;
 }
-/* line 335, general.less */
+/* line 341, general.less */
 .searchinput:-moz-placeholder {
   /* Firefox 18- */
   color: #d4dad9;
@@ -370,29 +385,29 @@
   font-style: italic;
 }
 @media (max-width: 768px) {
-  /* line 345, general.less */
+  /* line 351, general.less */
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 180px;
   }
-  /* line 349, general.less */
+  /* line 355, general.less */
   .logo_section {
     display: none;
   }
 }
 @media (max-width: 600px) {
-  /* line 354, general.less */
+  /* line 360, general.less */
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 90px;
   }
-  /* line 358, general.less */
+  /* line 364, general.less */
   .social_section {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     line-height: 50px;
   }
-  /* line 363, general.less */
+  /* line 369, general.less */
   .wrapper_m {
     display: grid;
     grid-template-columns: 150px;

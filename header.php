@@ -37,7 +37,6 @@
 	</div>
 
 </div>
-<section class="home_slider">
 
 <nav class="top_navigation">
 	<div class="wrapper_m cf">
@@ -59,6 +58,5 @@
 	
 </nav>
 
-</section>
 
 </header>
