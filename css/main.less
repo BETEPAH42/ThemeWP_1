@@ -1,0 +1,43 @@
+@import 'elements.less';
+
+/* Your Custom code here */
+
+div.example{
+  color:#fff;
+}
+.wrapper {
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.top_header {
+	height: 105px;
+	background: #fff;
+	
+	&::after{
+		content:"";
+		display: block;
+		width:100%;
+		height: 5px;
+		background-color: gray;
+	}
+}
+.header_third {
+	width: 33.3%;
+	float: left;
+}
+.header_third .logo_section {
+		text-align: center;
+		line-height: 105px;
+		.transition(all 300ms ease-in-out);
+}
+.header_third .logo_section:hover {
+		.opacity(0.6);
+		.transition(all 300ms ease-in-out);
+	}
+	
+.header_third .social_section {
+	text-align: rigth;
+	font-size: 18px;
+	color: gray;
+}
